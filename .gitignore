@@ -1,1 +1,29 @@
+node_modules/
+# Next.js build
+.next/
+out/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Build / output
+dist/
+coverage/
+
+# Lockfiles (keep pnpm lock but ignore others if used locally)
+package-lock.json
 node_modules
