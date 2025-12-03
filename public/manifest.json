@@ -1,0 +1,41 @@
+{
+  "name": "CHIDI - AI Business Assistant",
+  "short_name": "CHIDI",
+  "description": "AI-powered business assistant for African entrepreneurs managing WhatsApp & Instagram sales",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "finance"],
+  "shortcuts": [
+    {
+      "name": "New Order",
+      "short_name": "Order",
+      "description": "Create a new order",
+      "url": "/?action=new-order",
+      "icons": [{ "src": "/icon-192.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "View Messages",
+      "short_name": "Messages",
+      "description": "Check customer messages",
+      "url": "/?action=messages",
+      "icons": [{ "src": "/icon-192.jpg", "sizes": "192x192" }]
+    }
+  ]
+}
